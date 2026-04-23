@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import Profile,Complaint,Grievance
-from suit.apps import DjangoSuitConfig
+# from suit.apps import DjangoSuitConfig
 
 
 class CAdmin(admin.ModelAdmin):
