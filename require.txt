@@ -36,3 +36,4 @@ wrapt==1.13.3
 xlwt==1.3.0
 dj-database-url
 gunicorn
+whitenoise
