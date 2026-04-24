@@ -172,7 +172,9 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = '/login_redirect/'
 LOGIN_URL = 'signin'
 LOGOUT_URL='logout'
-SESSION_EXPIRE_AT_BROWSER_CLOSE=  True
+# SESSION_EXPIRE_AT_BROWSER_CLOSE=  True
+SESSION_EXPIRE_AT_BROWSER_CLOSE=  False
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT=587
